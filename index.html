@@ -21,42 +21,25 @@
     - The freeCodeCamp Team
 
     -->
-    <h1 id="title">Survey form</h1>
-    <p id="description">description</p>
-    <form action="" id="survey-form">
-      <label for="name" id="name-label">name</label>
-      <input type="text" id="name" required placeholder="john" />
-      <label for="email" id="email-label">email</label>
+
+    <header id="header">
+      <h1 id="title">Tribute Page</h1>
+      <img src="" alt="" id="header-img" />
+      <nav id="nav-bar">
+        <a href="#video" class="nav-link">video</a
+        ><a href="#submit" class="nav-link">submit</a
+        ><a href="#form" class="nav-link">form</a>
+      </nav>
+    </header>
+    <video src="" id="video"></video>
+    <form action="post" id="form">
       <input
         type="email"
         name="email"
         id="email"
-        required
-        placeholder="name@gmail.com"
+        placeholder="devendra@gmail.com"
       />
-      <label for="number" id="number-label">number</label>
-      <input
-        type="number"
-        name="number"
-        id="number"
-        min="3"
-        max="100"
-        placeholder="number"
-      />
-      <select id="dropdown">
-        <option value="val_1">Display Text 1</option>
-        <option value="val_2">Display Text 2</option>
-        <option value="val_3">Display Text 3</option>
-      </select>
-      <input type="radio" name="gender" value="male" />
-      <input type="radio" name="gender" value="female" />
-      <input type="radio" name="gender" value="others" />
-      <input type="checkbox" name="gender" value="opt 1" />
-      <input type="checkbox" name="gender" value="opt 2" />
-      <input type="checkbox" name="gender" value="opt 3" />
-
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-      <button id="submit"></button>
+      <button type="submit" id="submit"></button>
     </form>
     <script src="js/index.js"></script>
   </body>

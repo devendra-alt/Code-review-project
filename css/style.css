@@ -1,0 +1,13 @@
+#image {
+  max-width: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+#header {
+  position: fixed;
+  display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
